@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(245, 243, 243);
+    font-weight: bold;
+    background-image: url(../imagens/animado.gif);
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.container {
+    background-image: linear-gradient(90deg, #868484bf 0%, #7a7654ad 46%, #6dc97378 80%);
+
+    width: 100%;
+    margin: center;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: rgb(225, 18, 18) 5px 5px 15px;
+}
+
+
+h1 {
+
+    font-family: 'Impact', sans-serif;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.413);
+    color: #0f0e0eb8;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-shadow: 5px 5px 5px rgba(248, 1, 1, 0.5);
+
+}
+
+h2 {
+
+    color: rgb(214, 4, 4);
+    font-size: 28px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    padding-left: 10px;
+
+    margin-left: 10px;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.sombra {
+    text-shadow: violet 1px 1px 5px;
+}
+
+p a {
+    font-weight: bold;
+    background-color: rgb(123, 2, 145);
+    color: white;
+}
+
+figcaption {
+    font-weight: bold;
+    color: rgb(250, 8, 8);
+    font-size: 10px;
+    text-align: left;
+}
+
+
+figure img {
+    filter: grayscale();
+    transition: 0.2;
+}
+
+figure img:hover {
+    filter: none;
+}
+
+ul li {
+    font-weight: bold;
+    font-size: 18px;
+    list-style-image: url(../imagens/item-lista.gif)
+}
+
+ul li::marker {
+    content: "👾 ";
+}
+
+ul li:nth-child(2)::marker {
+    content: "👽 ";
+}
+
+ul li:nth-child(3)::marker {
+    content: "🤖 ";
+}
+
+ul li:nth-child(4)::marker {
+    content: "💩 ";
+}
